@@ -9,8 +9,9 @@ TestCases for node-horseman
 The Print.html page take in between 10 to 15 seconds to load (picks up a random number between 10 to 15). This is to simulate, page loading up data from backend and rendering things.
 
 # Test Cases
+
 |#   | Name | Description | Number of Parallel Prints   | Use of WaitFor(fn,value)   | Use of Wait(milliseconds) | 
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 |test1.js   |Prints 1 PDF uses WaitFor(fn,value) and setTimeout  | 1  | Yes  |  No |
 | 2 |test2.js   |Prints 2 PDFs in parallel uses WaitFor(fn,value) and setTimeout  | 2  | Yes  | No  |
 | 3 |test3.js   |Prints 1 PDF uses WaitFor(fn,value) and Async.parallel  | 1  | Yes  |  No |
