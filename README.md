@@ -16,7 +16,7 @@ The Print.html page take in between 10 to 15 seconds to load (picks up a random 
 
 # Test Cases
 
-|#   | Name | Description | Number of Parallel Prints   | Use of WaitFor(fn,value)   | Use of Wait(milliseconds) | Status | Description |
+|#   | Name | Description | Number of Parallel Prints   | Use of WaitFor (fn,value)   | Use of Wait (milliseconds) | Status | Description |
 |---|---|---|---|---|---|---|---|
 | 1 |test1.js   |Prints 1 PDF uses WaitFor(fn,value) and setTimeout  | 1  | Yes  |  No | Pass | Prints the 1 PDF File |
 | 2 |test2.js   |Prints 2 PDFs in parallel uses WaitFor(fn,value) and setTimeout  | 2  | Yes  | No  | Fail | Code Hangs after printing 1st PDF File |
