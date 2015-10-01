@@ -1,6 +1,12 @@
 # node-horseman-test-cases
 TestCases for node-horseman
 
+# Instructions
+
+* $>npm install
+* $>export PATH=$PATH:node_modules/phantomjs/bin 
+* $>DEBUG=horseman node test1.js
+
 # Test Scenario
 
 * Opens http://rohitghatol.github.io/pdf-print-server/login.html and puts in Username and Password there. 
